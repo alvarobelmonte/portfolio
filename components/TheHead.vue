@@ -76,6 +76,6 @@ h2 {
   margin-right: 5%;
 }
 .animation-container {
-  background-color: sandybrown;
+  background-color: transparent;
 }
 </style>

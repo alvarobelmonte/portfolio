@@ -60,7 +60,6 @@ export default {};
 <style>
 nav {
   height: 10vh;
-  background-color: green;
 }
 
 .social-container {
