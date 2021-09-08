@@ -1,7 +1,16 @@
 <template>
-  <Tutorial/>
+  <main>
+    <TheHeader />
+    <TheHead />
+    <TheProjects />
+  </main>
 </template>
 
 <script>
-export default {}
+export default {};
 </script>
+
+<style>
+main {
+}
+</style>
