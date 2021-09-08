@@ -1,12 +1,14 @@
 <template>
-  <section>projects</section>
+  <section>
+    <div>Projects</div>
+  </section>
 </template>
 
 <script>
 export default {};
 </script>
 
-<style>
+<style scoped>
 section {
   background-color: yellow;
   min-height: 10rem;
