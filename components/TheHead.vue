@@ -57,7 +57,8 @@ main {
 }
 h1 {
   color: #fa4b38;
-  font-size: 4rem;
+  font-size: 3rem;
+  text-align: center;
   font-family: "Heebo", sans-serif;
 }
 
@@ -84,5 +85,12 @@ h2 {
 }
 .animation-container {
   background-color: transparent;
+}
+
+@media only screen and (min-width: 720px) {
+  h1 {
+    font-size: 4rem;
+    text-align: left;
+  }
 }
 </style>

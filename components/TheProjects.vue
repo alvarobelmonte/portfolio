@@ -24,7 +24,7 @@
 export default {};
 </script>
 
-<style scoped >
+<style scoped lang="scss">
 .projects-section {
   min-height: 10rem;
 }
@@ -127,6 +127,7 @@ export default {};
   cursor: pointer;
   font-family: "Spartan", sans-serif;
   font-size: 0.9rem;
+  text-decoration: none;
   &:hover,
   &:visited {
     color: tomato;
