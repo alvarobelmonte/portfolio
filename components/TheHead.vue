@@ -3,7 +3,10 @@
     <section class="flex-container">
       <div class="title-container">
         <h1>Álvaro Belmonte</h1>
-        <h2>Hi, I'm a web developer based in Alicante (Spain)</h2>
+        <h2>
+          Hi, I'm a
+          <b>web developer</b> based in Alicante (Spain)
+        </h2>
       </div>
       <div class="animation-container">
         <lottie
