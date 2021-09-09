@@ -10,11 +10,10 @@
           <h3 class="project-title">Eduida</h3>
           <p
             class="project-description"
-          >asdasdj asdkl aksd lkjasd lka lkasd ljaks jdlkajsl dak dj alskjd asdkj akwd jl</p>
+          >Eduida es una plataforma para aprender inglés mientras juegas.</p>
           <h4 class="tech-title">Technologies</h4>
           <p class="project-tech">Nuxt, Strapi</p>
-          <a class="project-button">Code</a>
-          <a class="project-button">Demo</a>
+          <a class="project-button" href="https://eduida.es/">Demo</a>
         </div>
       </div>
     </main>
@@ -25,7 +24,7 @@
 export default {};
 </script>
 
-<style scoped>
+<style scoped >
 .projects-section {
   min-height: 10rem;
 }
@@ -61,19 +60,11 @@ export default {};
   -webkit-box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.1);
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.1);
-  transition: all 0.3s;
-}
-.project-card:hover {
-  -moz-transform: scale(0.9) skew(-5deg, 3deg);
-  -webkit-transform: scale(0.9) skew(-5deg, 3deg);
-  -o-transform: scale(0.9) skew(-5deg, 3deg);
-  -ms-transform: scale(0.9) skew(-5deg, 3deg);
-  transform: scale(0.9) skew(-5deg, 3deg);
 }
 .project-img-container {
   background-color: transparent;
   width: 50%;
-  padding: 1rem;
+  padding: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -97,10 +88,19 @@ export default {};
   font-weight: 600;
   color: #2f2f2f;
   background-color: transparent;
+  font-size: 0.9rem;
 }
 .project-img {
   width: 80%;
   border-radius: 2rem;
+  transition: all 0.3s;
+}
+.project-img:hover {
+  -moz-transform: scale(0.9) skew(-5deg, 3deg);
+  -webkit-transform: scale(0.9) skew(-5deg, 3deg);
+  -o-transform: scale(0.9) skew(-5deg, 3deg);
+  -ms-transform: scale(0.9) skew(-5deg, 3deg);
+  transform: scale(0.9) skew(-5deg, 3deg);
 }
 .tech-title {
   color: black;
@@ -111,7 +111,7 @@ export default {};
   background-color: transparent;
 }
 .project-tech {
-  padding: 0.5rem 1rem 0.5rem 1rem;
+  padding: 0.5rem 1rem 2rem 1rem;
   font-family: "Spartan", sans-serif;
   font-weight: 600;
   color: #2f2f2f;
@@ -126,5 +126,11 @@ export default {};
   font-weight: bold;
   cursor: pointer;
   font-family: "Spartan", sans-serif;
+  font-size: 0.9rem;
+  &:hover,
+  &:visited {
+    color: tomato;
+    text-decoration: none;
+  }
 }
 </style>
