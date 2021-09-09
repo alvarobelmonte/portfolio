@@ -53,16 +53,20 @@ export default {
 
 <style >
 main {
-  height: 70vh;
+  height: 60vh;
 }
 h1 {
-  color: #4d0057;
+  color: #fa4b38;
   font-size: 4rem;
   font-family: "Heebo", sans-serif;
 }
 
-h2 {
+h2,
+h3,
+h4 {
   font-family: "Spartan", sans-serif;
+}
+h2 {
   padding: 0;
   font-size: 1rem;
   margin: 0;
