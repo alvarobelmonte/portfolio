@@ -53,13 +53,14 @@ export default {
 
 <style >
 main {
-  height: 60vh;
+  min-height: 60vh;
 }
 h1 {
   color: #fa4b38;
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
   font-family: "Heebo", sans-serif;
+  padding-top: 2rem;
 }
 
 h2,
@@ -91,6 +92,7 @@ h2 {
   h1 {
     font-size: 4rem;
     text-align: left;
+    padding-top: 0;
   }
 }
 </style>

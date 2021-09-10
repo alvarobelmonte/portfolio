@@ -52,7 +52,6 @@ export default {};
 }
 .project-card {
   width: 50%;
-  height: 18rem;
   display: flex;
   margin: 2rem 0;
   background-color: rgba(255, 255, 255, 0.55);
@@ -83,7 +82,7 @@ export default {};
   background-color: transparent;
 }
 .project-description {
-  padding: 1rem;
+  padding: 0.5rem 0;
   font-family: "Spartan", sans-serif;
   font-weight: 600;
   color: #2f2f2f;
@@ -111,7 +110,7 @@ export default {};
   background-color: transparent;
 }
 .project-tech {
-  padding: 0.5rem 1rem 2rem 1rem;
+  padding: 0.5rem 0;
   font-family: "Spartan", sans-serif;
   font-weight: 600;
   color: #2f2f2f;
@@ -120,6 +119,7 @@ export default {};
 .project-button {
   width: 100%;
   padding: 0.3rem;
+  margin: 1rem 0;
   text-align: center;
   display: block;
   background-color: transparent;
@@ -132,6 +132,32 @@ export default {};
   &:visited {
     color: tomato;
     text-decoration: none;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .project-card {
+    flex-direction: column;
+    width: 90%;
+    height: 100%;
+  }
+  .project-img-container {
+    width: 100%;
+    padding: 1rem;
+  }
+  .project-description-container {
+    padding: 1.5rem;
+    width: 100%;
+  }
+  .project-title {
+    padding: 0.3rem;
+    font-size: 1.1rem;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  .project-img-container {
+    width: 80%;
+    padding: 1rem;
   }
 }
 </style>
